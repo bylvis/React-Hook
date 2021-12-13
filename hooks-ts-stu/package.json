@@ -1,5 +1,5 @@
 {
-  "proxy":"http://8.142.132.81:20/user",
+  "proxy": "http://8.142.132.81:20/user",
   "name": "hooks-ts-stu",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "animejs": "^3.2.1",
     "antd": "^4.17.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -42,5 +43,4 @@
       "last 1 safari version"
     ]
   }
-  
 }
