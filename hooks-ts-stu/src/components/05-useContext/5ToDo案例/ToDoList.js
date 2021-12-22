@@ -8,12 +8,14 @@ const ToDoList = () => {
             <ul>
                 {list.map(item => {
                     return (
-                        <li onClick={()=>dispatch1({ type:'toggle',id:item.id})}
-                            style={{ textDecoration: item.done ? 'line-through' : '' }}
-                            key={item.id}>{item.name
-                            }
+                        <div>
+                            <li onClick={() => dispatch1({ type: 'toggle', id: item.id })}
+                                style={{ textDecoration: item.done ? 'line-through' : '' ,float:'left'}}
+                                key={item.id}>{item.name
+                                }
+                            </li>
                             <button onClick={() => dispatch1({ type: 'del', id: item.id })}>X</button>
-                        </li>
+                        </div>
                     )
                 })}
             </ul>
